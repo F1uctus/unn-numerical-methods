@@ -169,7 +169,7 @@
 
   $
     cases(
-      x_1 = (-3 x_2 + 1) ⁄ 2 \
+      x_1 = (-3 x_2 + 1) ⁄ 2,
       x_2 = ( x_1 + 3) ⁄ 2
     ), thick
     alpha = mat(..A1aux), thick
@@ -231,7 +231,7 @@
 
   $
     cases(
-      x_1 = (-2 x_2 - 1) ⁄ 3 \
+      x_1 = (-2 x_2 - 1) ⁄ 3,
       x_2 = ( 3 x_1 + 5) ⁄ 2
     ), thick
     alpha = mat(0, -2 slash 3; 3 slash 2, 0), thick
@@ -291,7 +291,7 @@
 
   $
     cases(
-      x_1 = ( 2 x_2 - 3) ⁄ 1 \
+      x_1 = ( 2 x_2 - 3) ⁄ 1,
       x_2 = (-2 x_1 + 1) ⁄ 3
     ), thick
     alpha = mat(0, 2; -2 slash 3, 0), thick
@@ -349,7 +349,7 @@
 
   $
     cases(
-      x_1 = ( 2 x_2 - 5) ⁄ 3 \
+      x_1 = ( 2 x_2 - 5) ⁄ 3,
       x_2 = (-3 x_1 - 1) ⁄ 2
     ), thick
     alpha = mat(0, 2 slash 3; -3 slash 2, 0), thick

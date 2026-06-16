@@ -1,6 +1,6 @@
 #import "@preview/cetz:0.3.4"
 #import "@preview/cetz-plot:0.1.1": plot, chart
-#import "@preview/diverential:0.2.0": *
+#import "@preview/diverential:0.3.0": *
 #import "@preview/numty:0.0.5" as nt
 
 

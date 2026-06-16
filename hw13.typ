@@ -99,7 +99,7 @@
 === Задание 2
 
 $
-  (diff u) / (diff t) - 7 (diff u) / (diff x) = 0, quad u(x, 0) = f(x)
+  (partial u) / (partial t) - 7 (partial u) / (partial x) = 0, quad u(x, 0) = f(x)
 $
 $
   (u_m^p - u_m^(p - 1)) / tau - 7 (u_(m + 1)^p - u_m^p) / h = 0, quad u_m^0 = f(m h)
@@ -307,7 +307,7 @@ $
 === Задание 3
 
 $
-  (diff u) / (diff t) - 7 (diff u) / (diff x) = 0, quad u(x, 0) = f(x)
+  (partial u) / (partial t) - 7 (partial u) / (partial x) = 0, quad u(x, 0) = f(x)
 $
 Разностная схема:
 $
@@ -321,7 +321,7 @@ $
   columns: (1fr, 1fr),
   align: center + horizon,
   $L u = cases(
-    (diff u) / (diff t) - 7 (diff u) / (diff x) &comma quad x in RR comma space t > 0 semi,
+    (partial u) / (partial t) - 7 (partial u) / (partial x) &comma quad x in RR comma space t > 0 semi,
     u(x comma 0) comma &quad x in RR comma space t = 0
   )$,
   $f = cases(
@@ -517,7 +517,7 @@ $
 === Задание 4
 
 $
-  (diff u) / (diff t) - 7 (diff u) / (diff x) = 0, quad u(x, 0) = f(x)
+  (partial u) / (partial t) - 7 (partial u) / (partial x) = 0, quad u(x, 0) = f(x)
 $
 Разностная схема:
 $
@@ -531,7 +531,7 @@ $
   columns: (1fr, 1fr),
   align: center + horizon,
   $L u = cases(
-    (diff u) / (diff t) - 7 (diff u) / (diff x) &comma quad x in RR comma space t > 0 semi,
+    (partial u) / (partial t) - 7 (partial u) / (partial x) &comma quad x in RR comma space t > 0 semi,
     u(x comma 0) comma &quad x in RR comma space t = 0
   )$,
   $f = cases(
